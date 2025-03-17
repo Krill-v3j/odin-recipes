@@ -37,3 +37,20 @@ ul li::before {
     font-weight: bold;
     margin-right: 10px;
 }
+
+.list.pizza{
+    font-style: italic;
+    font-family: cursive;
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+.list.pasta{
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.list.chicken{
+    font-size: small;
+}
