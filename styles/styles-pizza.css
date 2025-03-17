@@ -1,0 +1,36 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    background-image: url(../images/Quick-and-Easy-Pizza-Crust2-2000-d38b79fa6b8e4a23ab9dac62dd7afff8.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.the-recipe{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 50px 50px;
+}
+
+.home-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.home-button:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
